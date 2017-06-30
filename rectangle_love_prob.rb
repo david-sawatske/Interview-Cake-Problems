@@ -19,6 +19,22 @@
 # Time
 # Space
 
-def triangle_love(amount, denominations)
+def triangle_love(rect1, rect2)
 
 end
+
+rect1 = {
+  left_x: 1,
+  width: 10,
+  bottom_y: 5,
+  height: 4
+}
+
+rect2 = {
+  left_x: 8,
+  width: 4,
+  bottom_y: 2,
+  height: 4
+}
+
+p triangle_love(rect1, rect2)
