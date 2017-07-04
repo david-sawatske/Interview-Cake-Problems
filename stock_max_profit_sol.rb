@@ -77,3 +77,9 @@ def get_max_profit(stock_prices_yesterday)
 
     return max_profit
 end
+
+stock_prices_yesterday1 = [10, 7, 5, 8, 11, 9]
+stock_prices_yesterday2 = [7, 1, 5, 3, 6, 4]
+
+p get_max_profit(stock_prices_yesterday1) == 6
+p get_max_profit(stock_prices_yesterday2) == 5

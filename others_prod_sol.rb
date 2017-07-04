@@ -1,7 +1,7 @@
 # We’re redoing multiplications when instead we could be storing the results!
 # This would be a great time to use a greedy approach.
 
-# O(n) time and O(n)O(n) space. We make two passes through our input an array,
+# O(n) time and O(n) space. We make two passes through our input an array,
 # and the array we build always has the same length as the input array.
 
 

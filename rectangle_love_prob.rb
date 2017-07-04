@@ -37,4 +37,4 @@ rect2 = {
   height: 4
 }
 
-p triangle_love(rect1, rect2)
+p triangle_love(rect1, rect2) == {:left_x=>8, :width=>3, :bottom_y=>5, :height=>1}

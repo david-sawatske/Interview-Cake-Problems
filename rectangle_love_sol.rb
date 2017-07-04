@@ -36,20 +36,20 @@ def find_rectangular_overlap(rect1, rect2)
   # return nil rectangle if there is no overlap
   if !overlap_width || !overlap_height
       return {
-          left_x: nil,
-          bottom_y: nil,
-          width: nil,
-          height: nil,
-      }
-  end
+        left_x: nil,
+        bottom_y: nil,
+        width: nil,
+        height: nil,
+        }
+    end
 
-  return {
+    return {
       left_x: x_overlap_point,
       bottom_y: y_overlap_point,
       width: overlap_width,
       height: overlap_height,
-  }
-end
+    }
+  end
 
 rect1 = {
   left_x: 1,

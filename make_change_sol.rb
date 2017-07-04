@@ -24,10 +24,8 @@ end
 
 amt1 = 4
 den1 = [1,2,3]
-
-p make_change(amt1, den1) == 4
-
 amt2 = 5
 den2 = [1,3,5]
 
-p make_change(amt2, den2) == 3
+p make_change(amt1, den1) #== 4
+p make_change(amt2, den2) #== 3

@@ -17,7 +17,7 @@
 #    previous meeting can't be merged with any future meetings and we throw the
 #    current meeting into merged_meetings.
 
-# O(nlgn) time and O(n)O(n) space.
+# O(nlgn) time and O(n) space.
 # Even though we only walk through our array of meetings once to merge them, we
 # sort all the meetings first, giving us a runtime of O(n\lg{n})O(nlgn). It's
 # worth noting that if our input were sorted, we could skip the sort and do

@@ -9,21 +9,7 @@
 # Space
 
 def merge_ranges(meetings)
-  sorted = meetings.sort
 
-  merged = [meetings.first]
-
-  meetings.each do |curr_start, curr_end|
-    prev_start, prev_end = merged[-1]
-
-    if curr_start <= prev_end
-      merged[-1] = [prev_start, curr_end]
-    else
-      merged << [curr_start, curr_end]
-    end
-  end
-
-  merged
 end
 
 meetings1 = [[0, 1], [3, 5], [4, 8], [10, 12], [9, 10]]
