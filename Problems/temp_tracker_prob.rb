@@ -6,8 +6,10 @@
 # getMean()—returns the mean of all temps we've seen so far
 # getMode()—returns a mode of all temps we've seen so far
 
-class TempTracker
+# We'll record our temperatures in Fahrenheit, so we can assume they'll
+# all be in the range 0..110.
 
+class TempTracker
 end
 
 temps1 = TempTracker.new
