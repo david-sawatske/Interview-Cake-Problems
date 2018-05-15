@@ -1,5 +1,5 @@
 # Write a function that, given: an amount of money and an array of coin
-# denominations computes the number of  ways to make the amount of money with
+# denominations compute the number of  ways to make the amount of money with
 # coins of the available denominations.
 
 # Time

@@ -42,3 +42,25 @@ arr2 =  [3, 1, 2, 5, 6, 4]
 
 p others_prod(arr1) ==  [84, 12, 28, 21]
 p others_prod(arr2) == [240, 720, 360, 144, 120, 180]
+
+
+# shorter syntax
+def others_prod(arr)
+	prods = []
+	hold = 1
+
+	arr.each_index do |i|
+		prods[i] = hold
+
+		hold *= arr[i]
+	end
+
+	hold = 1
+	for i in (arr.length - 1).downto(0) do
+		prods[i] *= hold
+
+		hold *= arr[i]
+	end
+
+	prods
+end

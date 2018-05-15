@@ -1,8 +1,10 @@
 # use a bottom-up algorithm to build up a table ways_of_doing_n_cents such that
 # ways_of_doing_n_cents[k] is how many ways we can get to k cents using our
-# denominations. We start with the base case that there's one way to create the
+# denominations.
+
+# We start with the base case that there's one way to create the
 # amount zero, and progressively add each of our denominations.
-#
+
 # The number of new ways we can make a higher_amount when we account for a new
 # coin is simply ways_of_doing_n_cents[higher_amount - coin], where we know that
 # value already includes combinations involving coin (because we went bottom-up,
